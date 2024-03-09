@@ -5,12 +5,13 @@
   "description": "Ecommerce with MERN stack",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "1.0 -d build",
     "start": "nodemon backend/server.js",
     "prod": "set NODE_ENV=production&& nodemon backend/server.js",
     "dev": "set NODE_ENV=development&& nodemon backend/server.js",
-    "seeder": "node backend/utils/seeder.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "seeder": "node backend/utils/seeder.js"
+    
   },
   "keywords": [
     "Niveatha"
