@@ -1,89 +1,87 @@
-const mongoose=require('mongoose');
+const mongoose = require('mongoose');
 
-const productSchema=new mongoose.Schema({
-    name:{
-        type:String,
-        required:[true,"please enter product name"],
-        trim:true,
-        maxLength:[100," prod name cant exceed 100 char"]
+const productSchema = new mongoose.Schema({
+    name : {
+        type: String,
+        required: [true, "Please enter product name"],
+        trim: true,
+        maxLength: [100, "Product name cannot exceed 100 characters"]
     },
-    price:{
-        type:Number,
-        
-        default:0.0
+    price: {
+        type: Number,
+        required: true,
+        default: 0.0
     },
-    description:{
-        type:String,
-        required:[true,"pls enter des"]
+    description: {
+        type: String,
+        required: [true, "Please enter product description"]
     },
-    ratings:{
-        type:String,
-        default:0
+    ratings: {
+        type: String,
+        default: 0
     },
-    images:[
+    images: [
         {
-            image:{
-                type:String,
-                required:true
+            image: {
+                type: String,
+                required: true
             }
         }
     ],
-    category:{
-        type:String,
-        required:true[true,"ent category"],
-        enum:{
-            values:[
-                'Electronics',
-                'Mobile Phones',
-                'Laptops',
-                'Accessories',
-                'Headphones',
-                'Food',
-                'Books',
-                'Clothes/Shoes',
-                'Beauty/Health',
-                'Sports',
-                'Outdoor',
-                'Home'
-
+    category: {
+        type: String,
+        required: [true, "Please enter product category"],
+        enum: {
+            values: [
+                'Haircare',
+                'Skincare',
+                'bath/body',
+                'kumkumadi essentials',
+                'perfume',
+                
             ],
-            message:"please select correct category"
+            message : "Please select correct category"
         }
     },
-    seller:{
-        type:String,
-        required:[true,"please enter product seller"]
+    seller: {
+        type: String,
+        required: [true, "Please enter product seller"]
     },
-    stock:{
-        type:Number,
-        required:[true,"please ent product stock"],
-        maxLength:[20,'product stock cannot exceed 20']
+    stock: {
+        type: Number,
+        required: [true, "Please enter product stock"],
+        maxLength: [20, 'Product stock cannot exceed 20']
     },
-    numOfReviews:{
-        type:Number,
-        default:0
+    numOfReviews: {
+        type: Number,
+        default: 0
     },
-    reviews:[{
-        user:{
-            type:mongoose.Schema.Types.ObjectId,
-        },
-        rating:{
-            type:String,
-            required:true
-        },
-        comment:{
-            type:String,
-            required:true
+    reviews: [
+        {
+            user:{
+                type:mongoose.Schema.Types.ObjectId,
+                ref: 'User'
+            },
+            rating: {
+                type: String,
+                required: true
+            },
+            comment: {
+                type: String,
+                required: true
+            }
         }
-    }],
-    user:{
-        type:mongoose.Schema.Types.ObjectId
-
-    },
+    ],
+    user: {
+        type : mongoose.Schema.Types.ObjectId
+    }
+    ,
     createdAt:{
-        type:Date,
-        default:Date.now()
+        type: Date,
+        default: Date.now()
     }
 })
-let schema=mongoose.model('product',productSchema)
-module.exports=schema
+
+let schema = mongoose.model('Product', productSchema)
+
+module.exports = schema

@@ -1,117 +1,265 @@
-[
+[ {
+    "name": "Neem oil for healthy hair",
+    "price": 150.7,
+    "description": "Neem oil helps in strengthening the hair .provides all the nutrients for a healthy hair",
+    "ratings": 2.9,
+    "images": [
+        {
+            "image": "/images/products/26.jpeg"
+        },
+        {
+            "image": "/images/products/12.jpeg"
+        }
+    
+        
+    ],
+    "category": "Haircare",
+    "seller": "kandra",
+    "stock": 25,
+    "numOfReviews": 5,
+    "reviews": []
+},
     {
-        "name": "OPPO F21s Pro 5G",
-        "price": 245.67,
-        "description": "OPPO F21s Pro 5G is a powerful device with a RAM extension feature, that offers brilliant operational speed to users.",
+    "name": "Amla Reetha Shikakai Powder",
+    "price": 160.2,
+    "description": "Buy Amla Reetha Shikakai Powder Online in India. Homemade Amla Reetha Shikakai Powder now to your doorstep in a click from Kandrafoods, order now for the organic Amla Reetha Shikakai Powder from comfort of your home.",
+
+    "ratings": 4.6,
+    "images": [
+        {
+            "image": "/images/products/2.webp"
+        },
+        {
+            "image": "/images/products/3.webp"
+        },
+        {
+            "image": "/images/products/8.jpg"
+        }
+        
+    ],
+    "category": "Haircare",
+    "seller": "kandra",
+    "stock": 15,
+    "numOfReviews": 2,
+    "reviews": []
+},
+    {
+        "name": "Hair Revitalising Trio | For thin, normal hair",
+        "price": 140.7,
+        "description": "A complete haircare solution for thin to normal hair that aims to promote scalp health and nourish the hair from root to tip.",
+    
         "ratings": 4.5,
         "images": [
             {
-                "image": "/images/products/1.jpg"
-            },
-            {
-                "image": "/images/products/2.jpg"
+                "image": "/images/products/1.jpeg"
             }
+            
         ],
-        "category": "Mobile Phones",
-        "seller": "Amazon",
-        "stock": 5,
+        "category": "Haircare",
+        "seller": "kandra",
+        "stock": 15,
         "numOfReviews": 15,
         "reviews": []
     },
     {
-        "name": "WRISTIO HD, Bluetooth Calling Smart Watch",
-        "price": 150.32,
-        "description": "Minix watches are exclusively designed to fulfill the advanced tech needs of today’s generation.",
-        "ratings": 3.5,
+        "name": "Hibiscus organic shikakai powder",
+        "price": 130.3,
+        "description": "Organic Hibiscus Flower Powder conditions dry hair. Strengthen hair. Amla Powder gives your skin a smooth and youthful look. It is known to exfoliate skin and remove dead skin cells. It is effective for lightening the skin because of Vitamin C. Amla Powder helps to conditions the damaged hair and makes them glossy & damage-free.Shikakai Powder is Rich in Vitamin A and C. Acts as natural Shikakai conditioner and detangles curly frizzy hair. Reetha Powder is best for Hair Care. It contains vitamins A, D, E, and K which impart shine to your hair and make it smooth. It is an Excellent Natural Conditioner that help in moisturizing your skin. It lightens your complexion and evens out your skin tone.",
+        "ratings": 3.8,
         "images": [
             {
-                "image": "/images/products/2.jpg"
+                "image": "/images/products/5.jpeg"
+            },
+            {
+                "image": "/images/products/10.jpeg"
+            },
+            {
+                "image": "/images/products/13.jpg"
             }
+            
         ],
-        "category": "Accessories",
-        "seller": "Flipkart",
-        "stock": 9,
-        "numOfReviews": 5,
+        "category": "Haircare",
+        "seller": "kandra",
+        "stock": 15,
+        "numOfReviews": 6,
         "reviews": []
     },
     {
-        "name": "Dell Inspiron 3511 Laptop",
-        "price": 440.57,
-        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
-        "ratings": 2,
+        "name": "pure amla shikakai powder",
+        "price": 110.7,
+        "description": "Organic amla Powder conditions is suitable for all skin types. Amla Powder gives your skin a smooth and youthful look. It is known to exfoliate skin and remove dead skin cells. It is effective for lightening the skin because of Vitamin C.amla Powder is Rich in Vitamin A and C.  It contains vitamins A, D, E, and K which impart shine to your hair and make it smooth. It is an Excellent Natural Conditioner that help in moisturizing your skin. It lightens your complexion and evens out your skin tone.",
+        "ratings": 3.8,
         "images": [
             {
-                "image": "/images/products/3.jpg"
+                "image": "/images/products/7.jpeg"
+            },
+            {
+                "image": "/images/products/8.jpeg"
             }
+           
+            
         ],
-        "category": "Laptops",
-        "seller": "Ebay",
-        "stock": 9,
-        "numOfReviews": 12,
+        "category": "Skincare",
+        "seller": "kandra",
+        "stock": 15,
+        "numOfReviews": 3,
         "reviews": []
     },
     {
-        "name": "Lenovo IdeaPad Slim 3 Laptop",
-        "price": 250.45,
-        "description": "Lenovo IdeaPad Slim 311th Gen Intel Core i5-1135G7 | Speed: 2.4 GHz (Base) - 4.2 GHz (Max) | 4 Cores | 8 Threads | 8 MB Cache",
-        "ratings": 4,
+        "name": "Turmeric face pack powder",
+        "price": 220.2,
+        "description": "Turmeric face mask with lemon juice Lemon is an active agent in eliminating excess oil from the skin, and along with gram flour, it acts as a gentle exfoliant. Add turmeric to the mixture and you have a face pack that controls oil, works on acne, exfoliates and soothes the skin, preventing further infections",
+        "ratings": 3.8,
         "images": [
-          {
-            "image": "/images/products/6.jpg"
-          }
+            {
+                "image": "/images/products/16.jpeg"
+            },
+            {
+                "image": "/images/products/17.jpeg"
+            },
+            {
+                "image": "/images/products/18.jpg"
+            }
+            
         ],
-        "category": "Laptops",
-        "seller": "Ebay",
-        "stock": 9,
-        "numOfReviews": 12,
-        "reviews": []
-      },
-      {
-        "name": "ASUS VivoBook 15 Laptop",
-        "price": 767.32,
-        "description": "ASUS VivoBook 15 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
-        "ratings": 5,
-        "images": [
-          {
-            "image": "/images/products/7.jpg"
-          }
-        ],
-        "category": "Laptops",
-        "seller": "Ebay",
-        "stock": 9,
-        "numOfReviews": 12,
+        "category": "Skincare",
+        "seller": "kandra",
+        "stock": 15,
+        "numOfReviews": 2,
         "reviews": []
     },
     {
-        "name": "PTron Newly Launched Tangent Sports, 60Hrs Playtime",
-        "price": 15.46,
-        "description": "Gigantic 60 + Hours of music playtime on a single charge; BT5.2 Wireless headphones with ENC (Environmental Noise Cancellation) Technology to enhance your voice quality over the voice calls",
-        "ratings": 5,
+        "name": "Neem face pack powder",
+        "price": 150.7,
+        "description": "Neem face mask with lemon juice Lemon is an active agent in eliminating excess oil from the skin, and along with gram flour, it acts as a gentle exfoliant. Add turmeric to the mixture and you have a face pack that controls oil, works on acne, exfoliates and soothes the skin, preventing further infections",
+        "ratings": 3.8,
         "images": [
             {
-                "image": "/images/products/4.jpg"
+                "image": "/images/products/19.jpeg"
+            },
+            {
+                "image": "/images/products/20.jpeg"
+            },
+            {
+                "image": "/images/products/18.jpg"
             }
+            
         ],
-        "category": "Headphones",
-        "seller": "Amazon",
-        "stock": 4,
-        "numOfReviews": 20,
+        "category": "Skincare",
+        "seller": "kandra",
+        "stock": 15,
+        "numOfReviews": 4,
         "reviews": []
     },
     {
-        "name": "Campus Men's Maxico Running Shoes",
-        "price": 10.12,
-        "description": "The high raised back cover with extra padding.",
-        "ratings": 3,
+        "name": "Mixed face pack powder",
+        "price": 120.2,
+        "description": "Turmeric face mask is suitable for all skin types and  is an active agent in keeping the skin healthy, and along with gram flour, it acts as a gentle exfoliant. Add turmeric to the mixture and you have a face pack that controls oil, works on acne, exfoliates and soothes the skin, preventing further infections",
+        "ratings": 3.8,
         "images": [
             {
-                "image": "/images/products/5.jpg"
+                "image": "/images/products/9.jpeg"
+            },
+            {
+                "image": "/images/products/11.jpeg"
+            },
+            {
+                "image": "/images/products/18.jpg"
             }
+            
         ],
-        "category": "Sports",
-        "seller": "Ebay",
-        "stock": 6,
-        "numOfReviews": 9,
+        "category": "Skincare",
+        "seller": "kandra",
+        "stock": 15,
+        "numOfReviews": 2,
+        "reviews": []
+    },
+    {
+        "name": "lavender haze scent",
+        "price": 145.2,
+        "description": "You can enjoy a nourishing blend of olive oil, manzanilla, leccino, maurino and franoio varietals, or opt for one of their bundles to experience the ultimate reset and revitalization of your complexion.",
+        "ratings": 4.8,
+        "images": [
+            {
+                "image": "/images/products/24.jpeg"
+            },
+            {
+                "image": "/images/products/25.jpeg"
+            }
+           
+            
+        ],
+        "category": "perfume",
+        "seller": "Heena",
+        "stock": 45,
+        "numOfReviews": 3,
+        "reviews": []
+    },
+    {
+        "name": "Mild lemonated perfume",
+        "price": 164.2,
+        "description": "You can enjoy a nourishing blend of lemon, manzanilla, leccino, maurino and franoio varietals, or opt for one of their bundles to experience the ultimate reset and revitalization of your complexion.",
+        "ratings": 4.3,
+        "images": [
+            {
+                "image": "/images/products/21.jpeg"
+            },
+            {
+                "image": "/images/products/22.jpeg"
+            },
+            {
+                "image": "/images/products/23.jpeg"
+            }
+           
+            
+        ],
+        "category": "perfume",
+        "seller": "Heena",
+        "stock": 45,
+        "numOfReviews": 1,
+        "reviews": []
+    },
+    {
+        "name": "Kumkumadi Rejuvenating & Brightening Night Cream",
+        "price": 120.2,
+        "description": "Kumkumadi Rejuvenating & Brightening Ayurvedic Night cream is a perfect leave-in night cream for youthful, naturally radiant skin. Enriched with Saffron & other precious ingredients, it's clinically proven* to brighten skin & even skin tone",
+        "ratings": 3.7,
+        "images": [
+            {
+                "image": "/images/products/26.jpeg"
+            },
+            {
+                "image": "/images/products/27.jpeg"
+            },
+            {
+                "image": "/images/products/28.jpeg"
+            }
+           
+            
+        ],
+        "category": "kumkumadi essentials",
+        "seller": "kamasutra",
+        "stock": 45,
+        "numOfReviews":15,
         "reviews": []
     }
-]
+    
+    
+    
+    
+       
+    
+    
+       
+    
+    
+       
+    
+    
+       
+    
+        ]
+    
+       
+        
+    

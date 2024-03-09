@@ -1,41 +1,68 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 
-
-const productsSlice=createSlice({
-    name:'products',  //displayed in network tab
-    initialState:{
-        loading:false //initially no loading only after request url is sent loading symbol must pop up
+const productsSlice = createSlice({
+    name: 'products',
+    initialState: {
+        loading: false
     },
-    reducers:{ 
-        //reducers will change the state
-        //we have 3 reducers here
-        productsRequest(state,action){
-            // when new page comes , before loading symbol
+    reducers: {
+        productsRequest(state, action){
             return {
-                loading:true,
-
+                loading: true
             }
         },
-        productsSuccess(state,action){ 
-            //here is action is the output(product data from db)
-            //when api request-success-product is fetched,
-            //loading shd be stopped
-            //action is the process of getting data from component and storing in store.js
+        productsSuccess(state, action){
             return {
-                loading:false,
-                products:action.payload.products //product info from db
+                loading: false,
+                products: action.payload.products,
+                productsCount: action.payload.count,
+                resPerPage : action.payload.resPerPage
             }
         },
-        productsFail(state,action){
-            return{
-           loading:false,
-           error: action.payload 
+        productsFail(state, action){
+            return {
+                loading: false,
+                error:  action.payload
+            }
+        },
+        adminProductsRequest(state, action){
+            return {
+                loading: true
+            }
+        },
+        adminProductsSuccess(state, action){
+            return {
+                loading: false,
+                products: action.payload.products,
+            }
+        },
+        adminProductsFail(state, action){
+            return {
+                loading: false,
+                error:  action.payload
+            }
+        },
+        clearError(state, action){
+            return {
+                ...state,
+                error:  null
             }
         }
     }
-})
+});
 
-const {actions,reducer }=productsSlice
-export const{productsRequest,productsSuccess,productsFail }=actions
-export default reducer
+const { actions, reducer } = productsSlice;
+
+export const { 
+    productsRequest, 
+    productsSuccess, 
+    productsFail,
+    adminProductsFail,
+    adminProductsRequest,
+    adminProductsSuccess
+
+} = actions;
+
+export default reducer;
+
